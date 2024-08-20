@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
+    "seed": "astro db execute db/seed.ts --remote",
     "build": "astro check && ASTRO_STUDIO_APP_TOKEN=token astro build --remote",
     "preview": "astro preview",
     "astro": "astro"
